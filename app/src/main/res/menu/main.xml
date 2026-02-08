@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/brush"
+        android:icon="@drawable/chiffon"
+        app:showAsAction="always"
+        android:title="brush"/>
+    <item
+        android:id="@+id/clear_all"
+        android:icon="@drawable/brosse"
+        app:showAsAction="always"
+        android:title="@string/clear_all"/>
+    <item
+        android:id="@+id/normal_brush"
+        app:showAsAction="always"
+        android:icon="@drawable/craie"
+        android:title="pencil"
+        />
+
+</menu>

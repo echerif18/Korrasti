@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "934019905423",
+    "firebase_url": "https://korras-3ef31.firebaseio.com",
+    "project_id": "korras-3ef31",
+    "storage_bucket": "korras-3ef31.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934019905423:android:d6629e539ecdcc08",
+        "android_client_info": {
+          "package_name": "tn.supcom.korrasti"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934019905423-o5ohlbmn11a2blerhcqcqf6scpg7c27p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR-QrqNRQU4NCkW4JVkijXIfbqI_Sbqxc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

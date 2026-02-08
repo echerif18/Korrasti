@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tn.supcom.korrasti">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StudentAccountActivity"
+            android:label="Les activités" />
+        <activity
+            android:name=".Ardoise"
+            android:label="Ardoise" />
+        <activity
+            android:name=".Notebook"
+            android:label="Cahier de classe" />
+        <activity android:name=".PronciationAct" />
+        <activity
+            android:name=".ChansonsContes"
+            android:theme="@style/AppTheme.Youtube" />
+        <activity
+            android:name=".CustomLightboxActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/AppTheme.Translucent" />
+        <activity android:name=".Coloriage"
+            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".SelectCat"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".SelectItem"
+            android:theme="@style/AppTheme"></activity>
+    </application>
+
+</manifest>
